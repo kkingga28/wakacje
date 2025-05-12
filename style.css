@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.mainHeader {
+    background-image: url('zdjecia/tlo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+    background-color: rgba(138, 208, 255, 0.664);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex: 1;
+    /* zajmuje całe dostępne miejsce */
+    gap: 2em;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    background-color: rgba(8, 8, 8, 0.4);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+}
+.page-header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: #152788;
+  }
+  
+main {
+    padding: 2em;
+  }
+  
+ section {
+    margin-bottom: 2em;
+  }
+  .card{
+    background-color: rgba(162, 255, 239, 0.267);
+    border-radius: 10px;
+    padding: 1em;
+  }
+  
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .gallery {
+    margin-top: 2em;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .gallery-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+
+footer {
+    background-color: #90c6ec;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+  }
